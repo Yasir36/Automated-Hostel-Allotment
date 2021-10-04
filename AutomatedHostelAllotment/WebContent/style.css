@@ -1,0 +1,203 @@
+@charset "ISO-8859-1";
+
+.login-form {
+	background-color: #2d9a53;
+}
+
+.login-details {
+	/* 	background-color: #002E46; */
+	display: inline-block;
+	text-align: center;
+	margin-top: 13%;
+	margin-left: 40%;
+	border: 1px dotted #AAAAAA;
+	border-radius: 5%;
+	padding-top: 4%;
+	padding-bottom: 4%;
+	padding-left: 4%;
+	padding-right: 4%;
+	border-radius: 13px;
+	background: #2d9a53;
+	box-shadow: -7px 7px 8px #123e21, 7px -7px 8px #48f685
+}
+
+.login-details h1 {
+	color: white;
+	border-radius: 10px;
+	font-family: monospace;
+	font-size: x-large;
+	padding-top: 3px;
+	font-weight: bold;
+	border-radius: 13px;
+	background: #2d9a53;
+	box-shadow: -7px 7px 8px #123e21, 7px -7px 8px #48f685
+}
+
+.login-details label {
+	font-family: monospace;
+	font-size: x-large;
+	text-align: left;
+	font-weight: bold;
+	color: white;
+}
+
+.login-details button {
+	background-color: #11111;
+	border: none;
+	border-radius: 10px;
+	font-weight: bold;
+	/*color : #002E46;*/
+	color: white;
+	padding: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-top: 15px;
+	font-size: large;
+	font: caption;
+	box-shadow: 1px 1px #AAAAAA;
+	border-radius: 13px;
+	background: #2d9a53;
+	box-shadow: -7px 7px 8px #123e21, 7px -7px 8px #48f685
+}
+
+.login-input {
+	color: white;
+	background-color: white;
+	border-radius: 5px;
+	border: 1px dotted #AAAAAA;
+	box-shadow: 1px 1px #AAAAAA;
+}
+
+.login-input:focus {
+	color: black;
+	outline: none;
+}
+
+.login-details button:focus {
+	color: black;
+	outline: none;
+	background-color: #AAAAAA;
+	box-shadow: 1px 1px black;
+}
+
+.registration-form {
+	display: inline-block;
+	margin-left: 40%;
+	padding: 15px;
+	border: 1px dotted #C6C6C6;
+	border-radius: 5px;
+	box-shadow: 5px 5px 5px #C6C6C6;
+	border-radius: 13px;
+	background: #2d9a53;
+	box-shadow: -7px 7px 8px #123e21, 7px -7px 8px #48f685
+}
+
+body {
+	background-color: #2d9a53;
+}
+
+.registration-form h1 {
+	color: white;
+	font-family: monospace;
+	text-align: center;
+	font-size: xxx-large;
+	border-radius: 5px;
+	box-shadow: 2px 2px 1px 1px #C6C6C6;
+	border-radius: 13px;
+	background: #2d9a53;
+	box-shadow: -7px 7px 8px #123e21, 7px -7px 8px #48f685
+}
+
+.registration-form label {
+	color: white;
+	font-family: monospace;
+	text-align: center;
+	font-size: large;
+	font-weight: bold;
+}
+
+.registration-form input {
+	border: none;
+	border-radius: 5px;
+	box-shadow: 1px 1px 1px 1px #C6C6C6;
+	text-align: center;
+	padding: 0px 5px 0px 5px;
+}
+
+.registration-form button {
+	background-color: #2d9a53;
+	border: none;
+	border-radius: 10px;
+	font-family: monospace;
+	font-weight: bold;
+	/*color : #002E46;*/
+	color: white;
+	padding: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-top: 5px;
+	font-size: large;
+	box-shadow: 1px 1px 1px 1px #AAAAAA;
+	margin-left: 40px;
+	border-radius: 13px;
+	background: #2d9a53;
+	box-shadow: -7px 7px 8px #123e21, 7px -7px 8px #48f685
+}
+
+.registration-form *:focus {
+	outline: none;
+}
+
+.registration-form button:focus {
+	color: black;
+	outline: none;
+	background-color: #AAAAAA;
+	box-shadow: 1px 1px black;
+}
+
+table, tbody, td {
+	font-family: monospace;
+	font-size: large;
+	border: 2px solid #123e21;
+	margin: 0 auto;
+	margin-top: 20%;
+	color: white;
+	box-shadow: inset -2px 2px 2px #123e21, inset 2px -2px 2px #48f685;
+}
+
+td {
+	background-color: #2d9a53;
+}
+
+.btn {
+	border: none;
+	border-radius: 10px;
+	font-family: monospace;
+	font-weight: bold;
+	/*color : #002E46;*/
+	color: white;
+	padding: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-top: 15px;
+	font-size: large;
+	box-shadow: 1px 1px #AAAAAA;
+	border-radius: 13px;
+	background: #2d9a53;
+	box-shadow: -4px 4px 8px #123e21, 4px -4px 8px #48f685
+}
+
+.btn-link {
+	border: none;
+	text-decoration: none;
+	font-family: monospace;
+	color: #002E46;
+	padding: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-top: 15px;
+	font-size: large;
+	font-weight: bold;
+	box-shadow: 1px 1px #AAAAAA;
+	box-shadow: inset -2px 2px 2px #123e21, inset 2px -2px 2px #48f685;
+}
